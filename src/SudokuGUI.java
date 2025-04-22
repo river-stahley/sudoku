@@ -11,7 +11,7 @@ public class SudokuGUI extends JFrame {
         setTitle("Sudoku");
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setLayout(new BorderLayout());
-        setPreferredSize(new Dimension(400, 300));
+        setPreferredSize(new Dimension(500, 400));
 
         // Create Sudoku grid
         JPanel gridPanel = new JPanel(new GridLayout(SIZE, SIZE));
